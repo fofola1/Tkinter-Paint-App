@@ -136,6 +136,7 @@ public class App {
                         break;
                     case KeyEvent.VK_C:
                         lineCanvas = new LineCanvas();
+                        raster.clear();
                         break;
                     case KeyEvent.VK_SHIFT:
                         alignMode = true;
